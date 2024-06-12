@@ -1,11 +1,21 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import Header from './components/Header'
+import { Banner } from './components/Banner'
+import Marquee from './components/marque'
+
 const App = () => {
   return (
     <>
+    <div className='bg-black'>
     <Navbar/>
-    <Header/>
+    <Banner/>
+    </div>
+    
+
+    {/* <Marquee/> */}
+    {/* <Header/> */}
+
+    
     </>
   )
 }
