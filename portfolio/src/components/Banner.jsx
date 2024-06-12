@@ -69,7 +69,7 @@ export const Banner = () => {
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
                  <motion.div
-        className='absolute bottom-11 right-0'
+        className=' bottom-11 right-0'
         animate={{ y: [-20, 30] }}
         transition={{
           duration: 4,
