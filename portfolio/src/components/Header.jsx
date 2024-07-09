@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import man from '../assets/arnav.png';
-import Marquee from './marque';
+import Marquee from './marquee';
 
 
 
