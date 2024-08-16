@@ -58,7 +58,7 @@ export const Banner = () => {
   return (
     <section className="banner bg-black px-4" id="home">
       <Container>
-        <Row className="aligh-items-center lg:grid lg:grid-cols-3 lg:gap-4">
+        <Row className="aligh-items-center lg:grid lg:grid-cols-3 lg:gap-4 lg:mt-20 lg:ml-20">
           <Col xs={12} md={6} xl={7} className="lg:col-span-2 side">
             <TrackVisibility>
               {({ isVisible }) =>

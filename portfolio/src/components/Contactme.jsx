@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import './Contact.css';
 import { FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
 import { motion, useInView } from 'framer-motion';
+import Footer from './Footer';
 
 const variants = {
   initial: {
@@ -24,7 +25,7 @@ const Contactme = () => {
 
   return (
     <motion.div 
-      className="contact" 
+      className="contact mb-20 mt-20" 
       variants={variants} 
       ref={ref} 
       initial="initial" 
@@ -61,12 +62,12 @@ const Contactme = () => {
       </motion.div>
       <motion.div className="formContainer">
         <motion.div 
-          className="phoneSvg"
+          className="phoneSvg "
           initial={{ opacity: 1 }}
           whileInView={{ opacity: 0 }}
           transition={{ delay: 3, duration: 1 }}
         >
-          <svg height="450px" width="450px" version="1.1" id="Layer_1" viewBox="0 0 512.107 512.107" xmlSpace="preserve">
+          <svg height="450px" width="450px" version="1.1" id="Layer_1"  viewBox="0 0 512.107 512.107" xmlSpace="preserve">
             <defs>
               <linearGradient id="gradientStroke" x1="0%" y1="0%" x2="100%" y2="100%">
                 <stop offset="0%" style={{ stopColor: 'pink', stopOpacity: 1 }} />
@@ -78,7 +79,7 @@ const Contactme = () => {
                 <motion.path
                   strokeWidth={2}
                   fill="none"
-                  className="gradient-stroke"
+                  className="gradient-stroke "
                   initial={{ pathLength: 0 }}
                   animate={isInView && { pathLength: 1 }}
                   transition={{ duration: 3 }}
@@ -117,6 +118,7 @@ const Contactme = () => {
         </motion.form>
       </motion.div>
     </motion.div>
+    
   );
 }
 
