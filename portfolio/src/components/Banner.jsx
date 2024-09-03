@@ -146,7 +146,7 @@ export const Banner = () => {
                         <FaGithub size={25} />
                       </motion.a>
                       <motion.a
-                        href="mailto:your-avsingh02as02@gmail.com"
+                        href="mailto:avsingh02as02@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.2 }}

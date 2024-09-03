@@ -35,9 +35,10 @@ const Marqueeee = () => {
             <div className="flex">
               {[...Array(15)].map((_, index) => (
                 <div
-                  key={index}
-                  className="flex items-center text-white bg-gradient-to-l from-fuchsia-950 to-pink-800 hover:bg-gradient-to-r focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 border-gray-300 rounded-lg mx-6 py-4 shadow-md hover:bg-gray-100 cursor-pointer"
-                >
+                key={index}
+                className="flex items-center text-white  focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 border-gray-300 rounded-lg mx-6 py-4 shadow-md hover:bg-gray-100 cursor-pointer"
+              style={{ background: 'linear-gradient(90.21deg, rgba(170, 54, 124, 0.3) -5.91%, rgba(74, 47, 189, 0.3) 111.58%)', overflow: 'hidden', width: '100%' }}
+              >
                   <img src={react} alt="React Logo" className="w-12 text-white h-12 mr-2 pl-4" />
                   <span className="text-lg font-semibold text-white pr-12">Start using</span>
                 </div>
