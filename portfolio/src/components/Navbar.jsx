@@ -12,32 +12,30 @@ const Navbar = () => {
     <nav className="bg-white bg-opacity-10 backdrop-blur-lg shadow-lg border border-opacity-30 border-white rounded-md text-white flex fixed w-full z-10">
       <div className="container mx-auto flex items-center justify-between py-4 px-4">
         <div className="text-3xl font-bold">
-          ARNAV<span className="text-fuchsia-600"> Singh</span>
+          ARNA<span className="text-fuchsia-600">V</span>
         </div>
         <ul className="hidden md:flex mx-10 space-x-10">
+       
           <li>
-            <a 
-              href="#home" 
-              className="block text-sm px-2 py-4 align-middle hover-gradient-bg">
-              Home
-            </a>
+            <a href="#home" className="block text-sm px-2 py-4  hover-gradient-bg">About me</a>
           </li>
           <li>
-            <a href="#about" className="block text-sm px-2 py-4  hover-gradient-bg">About me</a>
+            <a href="#skills" className="block text-sm px-2 py-4  hover-gradient-bg">Services</a>
           </li>
           <li>
-            <a href="#services" className="block text-sm px-2 py-4  hover-gradient-bg">Services</a>
+            <a href="#projects" className="block text-sm px-2 py-4  hover-gradient-bg">My work</a>
           </li>
           <li>
-            <a href="#work" className="block text-sm px-2 py-4  hover-gradient-bg">My work</a>
+            <a href="#contact" className="block text-sm px-2 py-4  hover-gradient-bg">Testimonials</a>
           </li>
           <li>
-            <a href="#testimonials" className="block text-sm px-2 py-4  hover-gradient-bg">Testimonials</a>
+            <a   href="../resume.pdf"
+      download="My_CV.pdf" className="block text-sm px-2 py-4  hover-gradient-bg">Resume</a>
           </li>
-        </ul>
+        </ul><a  href="#contact">
         <button className="bg-gradient-to-r from-fuchsia-600 to-purple-600 py-2 px-4 rounded-full hidden md:block">
-          Connect with me
-        </button>
+         Connect with me
+        </button></a> 
       </div>
       <div className="md:hidden flex items-center">
         <button className="mobile-menu-button mr-10" onClick={toggleMenu}>

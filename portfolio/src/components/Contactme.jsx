@@ -25,6 +25,7 @@ const Contactme = () => {
 
   return (
     <motion.div 
+    id="contact" 
       className="contact mb-20 mt-20" 
       variants={variants} 
       ref={ref} 

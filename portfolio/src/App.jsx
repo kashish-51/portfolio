@@ -7,6 +7,8 @@ import Marqueeee from './components/Marqueeee';
 import Contactme from './components/Contactme';
 import Projects from './components/Projects';
 import Loader from './components/Loader';
+import GitHubContributions from './components/GithubContributions';
+import GitHubStats from './components/GithubStats';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -24,12 +26,15 @@ const App = () => {
         <Loader />
       ) : (
         <>
+     
           <Navbar />
           <Banner />
           <Marquee />
           <Marqueee />
           <Marqueeee />
           <Projects />
+          <GitHubContributions/>
+          <GitHubStats username="annoy004" />
           <Contactme />
         </>
       )}

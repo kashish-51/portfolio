@@ -31,7 +31,7 @@ const Marquee = () => {
   };
 
   return (
-    <div className="bg-black">
+    <div className="bg-black " id="skills" >
       <div className="marquee">
         {/* 3. Using framer motion */}
         <div className="flex justify-center items-center h-20 bg-black">

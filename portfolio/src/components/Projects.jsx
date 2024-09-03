@@ -54,7 +54,7 @@ const Projects = () => {
 
   return (
     <>
-      <div className='relative'>
+      <div className='relative' id="projects">
         <div ref={bg1} className="bg bg-[#141414] absolute h-screen w-screen z-[-1]"></div>
 
         <section>

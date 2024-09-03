@@ -19,7 +19,7 @@ const marqueeVariants = (isPaused) => ({
 });
 
 const MarqueeItem = () => (
-  <div className="flex items-center text-white bg-gradient-to-l from-fuchsia-950 to-pink-800 hover:bg-gradient-to-r focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 border-gray-300 rounded-lg mx-6 py-4 shadow-md hover:bg-gray-100 cursor-pointer">
+  <div  className="flex items-center text-white bg-gradient-to-l from-fuchsia-950 to-pink-800 hover:bg-gradient-to-r focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 border-gray-300 rounded-lg mx-6 py-4 shadow-md hover:bg-gray-100 cursor-pointer">
     <img src={reactLogo} alt="React Logo" className="w-12 h-12 mr-2 pl-4" />
     <span className="text-lg font-semibold pr-12">Start using</span>
   </div>

@@ -7,7 +7,7 @@ import man from '../assets/arnav.png';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram } from 'react-icons/fa';
 import TrackVisibility from 'react-on-screen';
-
+import movingman from '../assets/codeman.gif'
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -190,6 +190,7 @@ export const Banner = () => {
                 </div>
               }
             </TrackVisibility>
+            {/* <img src={movingman} /> */}
           </Col>
         </Row>
       </Container>
