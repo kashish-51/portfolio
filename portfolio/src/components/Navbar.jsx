@@ -17,20 +17,20 @@ const Navbar = () => {
         <ul className="hidden md:flex mx-10 space-x-10">
        
           <li>
-            <a href="#home" className="block text-sm px-2 py-4  hover-gradient-bg">About me</a>
+            <a href="#home" className="block text-sm px-2 py-4  hover-gradient-bg font-semibold">About me</a>
           </li>
           <li>
-            <a href="#skills" className="block text-sm px-2 py-4  hover-gradient-bg">Services</a>
+            <a href="#skills" className="block text-sm px-2 py-4  hover-gradient-bg font-semibold">Skills</a>
           </li>
           <li>
-            <a href="#projects" className="block text-sm px-2 py-4  hover-gradient-bg">My work</a>
+            <a href="#projects" className="block text-sm px-2 py-4  hover-gradient-bg font-semibold">My work</a>
           </li>
           <li>
-            <a href="#contact" className="block text-sm px-2 py-4  hover-gradient-bg">Testimonials</a>
+            <a href="#experience" className="block text-sm px-2 py-4  hover-gradient-bg font-semibold">Experience</a>
           </li>
           <li>
             <a   href="../resume.pdf"
-      download="My_CV.pdf" className="block text-sm px-2 py-4  hover-gradient-bg">Resume</a>
+      download="My_CV.pdf" className="block text-sm px-2 py-4  hover-gradient-bg font-semibold">Resume</a>
           </li>
         </ul><a  href="#contact">
         <button className="bg-gradient-to-r from-fuchsia-600 to-purple-600 py-2 px-4 rounded-full hidden md:block">

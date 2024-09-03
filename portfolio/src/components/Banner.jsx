@@ -82,7 +82,7 @@ export const Banner = () => {
                     animate={{ opacity: 1 }}
                     transition={{ delay: 1, duration: 1 }}
                   >
-                    {`Hi! I'm Jon`}
+                    {`Hi! I'm Arnav`}
                   </motion.h1>
                   <motion.h1
                     className="text-red-50 bg-gradient-to-r from-fuchsia-600 to-fuchsia-950 bg-clip-text text-transparent"

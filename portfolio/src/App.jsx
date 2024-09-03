@@ -9,6 +9,7 @@ import Projects from './components/Projects';
 import Loader from './components/Loader';
 import GitHubContributions from './components/GithubContributions';
 import GitHubStats from './components/GithubStats';
+import ExperienceSection from './components/ExperienceSection';
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -26,7 +27,6 @@ const App = () => {
         <Loader />
       ) : (
         <>
-     
           <Navbar />
           <Banner />
           <Marquee />
@@ -35,6 +35,7 @@ const App = () => {
           <Projects />
           <GitHubContributions/>
           <GitHubStats username="annoy004" />
+          <ExperienceSection/>
           <Contactme />
         </>
       )}
