@@ -29,8 +29,8 @@ const Navbar = () => {
             <a href="#experience" className="block text-sm px-2 py-4  hover-gradient-bg font-semibold">Experience</a>
           </li>
           <li>
-            <a   href="../resume.pdf"
-      download="My_CV.pdf" className="block text-sm px-2 py-4  hover-gradient-bg font-semibold">Resume</a>
+            <a   href="/resume.pdf"
+      download="Arnav_Singh_Resume.pdf" className="block text-sm px-2 py-4  hover-gradient-bg font-semibold">Resume</a>
           </li>
         </ul><a  href="#contact">
         <button className="bg-gradient-to-r from-fuchsia-600 to-purple-600 py-2 px-4 rounded-full hidden md:block">
@@ -71,3 +71,6 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+
+
